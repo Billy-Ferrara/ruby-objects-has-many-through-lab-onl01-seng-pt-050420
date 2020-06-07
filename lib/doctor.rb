@@ -6,6 +6,7 @@ class Doctor
 
   def initialize(name)
     @name = name
+    @appointments = []
     @@all << self
   end
 
@@ -13,8 +14,6 @@ class Doctor
     @@all
   end
 
-  def appointment
-    
-  end
+
 
 end
