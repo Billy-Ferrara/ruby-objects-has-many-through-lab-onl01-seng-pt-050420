@@ -6,7 +6,7 @@ class Doctor
 
   def self.all
     @@all
-  end 
+  end
 
   def initialize(name)
     @name = name
@@ -24,8 +24,7 @@ class Doctor
   def patients
     @appointments.collect do |appointment|
       appointment.patient
-    e
-    nd
+    end
   end
 
 
