@@ -13,4 +13,8 @@ class Doctor
     @@all
   end
 
+  def appointment
+    
+  end
+
 end
