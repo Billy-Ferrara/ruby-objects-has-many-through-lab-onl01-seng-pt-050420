@@ -23,7 +23,7 @@ class Artist
       Song.new(title, self, genre)
   end
 
-  def genre
+  def genres
     songs.map do |song|
       song.genre
     end
