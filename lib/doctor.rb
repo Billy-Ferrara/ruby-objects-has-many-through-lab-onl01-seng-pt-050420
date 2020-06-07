@@ -2,11 +2,7 @@
 #
 #   attr_accessor :name, :appointments, :patient
 #
-#   @@all =[]
 #
-#   def self.all
-#     @@all
-#   end
 #
 #   def initialize(name)
 #     @name = name
@@ -29,6 +25,12 @@
 
 class Doctor
   attr_accessor :name
+
+  @@all =[]
+
+  def self.all
+    @@all
+  end
 
   def initialize(name)
     @name = name
